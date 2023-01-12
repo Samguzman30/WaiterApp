@@ -11,6 +11,7 @@
     <h1 class="text-center text-2xl font-bold text-indigo-600 sm:text-3xl">
       Get started today
     </h1>
+    
 
     <p class="mx-auto mt-4 max-w-md text-center text-gray-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sunt
