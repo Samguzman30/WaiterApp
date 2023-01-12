@@ -11,7 +11,6 @@
 </head>
 <body class="bg-gray-100 text-gray-800" >
 <nav class="flex py-5 justify-start  text-black">
-<p class="justify-end">Waiter app</p>
 
 
 
