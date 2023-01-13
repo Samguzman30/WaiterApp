@@ -3,7 +3,7 @@
 @section('title', 'Home')
     
 @section('content')
-<section class="antialiased bg-gray-100 text-gray-600 min-h-screen p-4">
+<section class=" antialiased bg-gray-100 text-gray-600 min-h-screen p-4">
   <div class="h-full">
       <!-- Pay component -->
       <div>
@@ -26,8 +26,8 @@
                           <span class="absolute inset-0 m-1 pointer-events-none" aria-hidden="true">
                               <span class="absolute inset-0 w-1/2  transform transition duration-150 ease-in-out" :class="card ? 'translate-x-0' : 'translate-x-full'"></span>
                           </span>
-                          <button class="relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out focus:outline-none  focus-visible:ring-2" @click.prevent="card = true">Ingresar</button>
-                          <button class="relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out focus:outline-none focus-visible:ring-2" @click.prevent="card = false">Registrarte</button>
+                          <button class="relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out focus:outline-none focus-visible:ring-2" @click.prevent="card = true">Ingresar</button>
+                          <button class="relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out focus:outline-none  focus-visible:ring-2" @click.prevent="card = false">Registrarte</button>
                       </div>
                   </div>
 
