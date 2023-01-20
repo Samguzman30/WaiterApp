@@ -7,8 +7,17 @@ use App\Http\Controllers\SessionController;
 
 
 Route::get('/', function () {
-    return view('home');
+    return view('auth.session');
 });
 
-Route::get('/register', [RegisterController::class, 'create'])->name('register.index');
-Route::get('/login', [SessionController::class, 'create'])->name('login.index');
+Route::get('/register', [RegisterController::class, 'create'])
+             ->name('register.index');
+
+Route::post('/register', [RegisterController::class, 'store'])
+             ->name('register.store');             
+
+Route::get('/login', [SessionController::class, 'create'])
+            ->name('login.index');
+
+ Route::post('/login', [SessionController::class, 'store'])
+            ->name('login.store');            
