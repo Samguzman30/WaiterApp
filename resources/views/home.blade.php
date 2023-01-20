@@ -28,8 +28,8 @@
                           <span class="absolute inset-0 m-1 pointer-events-none" aria-hidden="true">
                               <span class="absolute inset-0 w-1/2  transform transition duration-150 ease-in-out" :class="card ? 'translate-x-0' : 'translate-x-full'"></span>
                           </span>
-                          <button class=" relative flex-1 text-lg border-b-4 border-[#3da496] font-medium p-1 transition duration-150 ease-in-out focus:outline-none  focus-visible:ring-2" @click.prevent="card = true">Ingresar</button>
-                          <button name="redirect" class="relative flex-1 text-lg  border-b-4 border-b-gray-200  font-medium text-gray-600/50 p-1 transition duration-150 ease-in-out focus:outline-none  focus-visible:ring-2" @click.prevent="card = false" onclick="redirect()" >Registrarse</button>
+                          <a class=" relative flex-1 text-center text-lg border-b-4 border-[#3da496] font-medium p-1 transition duration-150 ease-in-out focus:outline-none  focus-visible:ring-2" @click.prevent="card = true">Ingresar</a>
+                          <a href="{{ route('register.index') }}" class="relative text-center flex-1 text-lg  border-b-4 border-b-gray-200  font-medium text-gray-600/50 p-1 transition duration-150 ease-in-out focus:outline-none  focus-visible:ring-2" @click.prevent="card = false" onclick="redirect()" >Registrarse</a>
                       </div>
                   </div>
 
