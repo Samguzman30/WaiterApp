@@ -16,8 +16,8 @@
                   <!-- Card header -->
                   <div class="text-center  mb-6">
                       <div class="mb-2">
-                          <img class="-mt-8 inline-flex rounded-full" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" width="110" height="70" alt="User"/>
-                      </div>
+                          <img class="-mt-8 inline-flex rounded-full" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" width="110" height="70" alt="User"/>                    
+                        </div>
                      
                   </div>
 
@@ -65,6 +65,7 @@
                               <button type="submit" class="font-medium text-sm inline-flex items-center justify-center px-3 py-2 border border-transparent rounded leading-5 shadow-sm transition duration-150 ease-in-out w-full bg-[#3da496] hover:bg-[#73cbbf] text-white focus:outline-none focus-visible:ring-2">Ingresar</button>
                           </div>
                       </div>
+                      <a class="text-sm font-light mb-1 ml-14" href="">¿Quieres recuperar tu contraseña?</a>
                   </div>
 
               
